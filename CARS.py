@@ -195,7 +195,7 @@ def cars_predict(df):
 
 def load_data():
     # 윈도우 경로 백슬래시 이스케이프 문자 방지를 위해 raw string(r) 처리
-    df = pd.read_csv(r"Ch11\data\cars.csv")
+    df = pd.read_csv(r"cars.csv")
     return df
 
 def main():
